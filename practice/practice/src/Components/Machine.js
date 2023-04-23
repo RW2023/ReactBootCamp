@@ -1,6 +1,7 @@
 class Machine extends React.Component {
     s1 = "🍓"
-    s2 =a"
+    s2 ="🍉"
+    s3="🍑"
     render() {
         const { s1, s2, s3 } = this.props;
         const winner = (s1 === s2) && (s2 === s3);
