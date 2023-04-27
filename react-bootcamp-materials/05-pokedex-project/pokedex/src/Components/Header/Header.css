@@ -4,7 +4,6 @@
     --border: #609966;
     --background: #40513B;
 }
-
 /* CSS Reset */
 
 body {
@@ -19,6 +18,9 @@ body {
     box-sizing: border-box;
 }
 
-body{
+h1{
     background-color: var(--background);
+    color: var(--text);
+    font-size: xx-large;
+
 }

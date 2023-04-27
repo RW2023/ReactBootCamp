@@ -1,4 +1,5 @@
 import { Component } from "react";
+import './PokeCard.css'
 const POKE_API = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 class PokeCard extends Component {
 
