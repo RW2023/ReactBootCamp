@@ -4,7 +4,13 @@ import PokeCard from './Components/PokeCard/PokeCard';
 function App() {
   return (
     <div className="App">
-      <PokeCard/>
+      <PokeCard
+      id={4}
+      name='Charmander'
+      Type='Fire'
+      Experience={62}
+      />
+      
     </div>
   );
 }
