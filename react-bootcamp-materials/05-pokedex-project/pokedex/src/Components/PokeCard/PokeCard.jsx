@@ -1,23 +1,22 @@
 import { Component } from "react";
-
+const POKE_API = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 class PokeCard extends Component {
+
     render() {
-        let cardTitle = 'PokeMon Name Goes Here';
-        const imageUrl = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png';
+        let imageSrc = `${POKE_API}${this.props.id}.png`;
 
         return (
             <>
                 <div className='PokeCard_Container'>
-                    <h1>PokeCard</h1>
-                    <h2 className='PokeCard_Title'>{cardTitle}</h2>
+                    <h2 className='PokeCard_Title'>{this.props.name}</h2>
                 </div>
 
                 <div className='PokeCard_Image'>
-                    <img src={imageUrl} alt="PokeMon" />
+                    <img src={imageSrc} alt={this.props.name} />
                 </div>
                 <div className='PokeCard_Type'>
-                   <p>Type Goes Here</p>
-                   <p>Experience goes here</p>
+                   <p>{this.props.name}</p>
+                    <p>{this.props.Experience}</p>
 
                 </div>
             </>
