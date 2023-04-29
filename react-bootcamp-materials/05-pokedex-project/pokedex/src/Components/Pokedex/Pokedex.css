@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+/* CSS Reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End of CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+

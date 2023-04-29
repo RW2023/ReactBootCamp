@@ -1,5 +1,6 @@
 
 import PokeCard from './Components/PokeCard/PokeCard';
+import PokeDex from './Components/Pokedex/Pokedex';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         type="earth"
         Experience={77}
       />
+      <PokeDex/>
 
       
     </div>
