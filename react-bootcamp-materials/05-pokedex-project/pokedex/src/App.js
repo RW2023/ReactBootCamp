@@ -1,17 +1,24 @@
 
 import PokeCard from './Components/PokeCard/PokeCard';
-import Header from './Components/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+  
       <PokeCard
       id={4}
       name='Charmander'
-      Type='Fire'
+      type="fire"
       Experience={62}
       />
+      <PokeCard
+        id={9}
+        name='Baldazore'
+        type="earth"
+        Experience={77}
+      />
+
       
     </div>
   );
