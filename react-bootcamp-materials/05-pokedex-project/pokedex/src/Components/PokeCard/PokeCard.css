@@ -34,7 +34,9 @@ img {
     margin: 1rem;
     box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
     background-color: white;
-    border-radius: 3px
-    ;
+    border-radius: 3px ;
+}
 
+.PokeCard-data{
+    font-size: 80%;
 }
