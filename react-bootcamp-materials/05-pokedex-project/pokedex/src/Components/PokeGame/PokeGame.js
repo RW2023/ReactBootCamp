@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-class PokiGame extends Component{
+import Pokedex from '../Pokedex/Pokedex';
+class PokeGame extends Component{
 
     static defaultProps = {
         pokemon: [
@@ -16,6 +17,8 @@ class PokiGame extends Component{
     render(){
         let hand1 = [];
         let hand2 = [...this.props.pokemon];
+        console.log(hand1)
+        console.log(hand2)
         while (hand1.length < hand2.length){
             let randIdx = Math.floor(Math.random() * hand2.length);
             let randPokemon = hand2.splice(randIdx, 1)[0];
@@ -23,10 +26,12 @@ class PokiGame extends Component{
         }
         return(
 <div>
-    <h1>Pokie Game</h1>
+    <Pokedex pokemon={hand1}/>
+                <Pokedex pokemon={hand2} />
+
 </div>
         )
     }
 }
 
-export default PokiGame
+export default PokeGame;

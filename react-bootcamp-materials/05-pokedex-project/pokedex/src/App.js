@@ -1,12 +1,11 @@
-
-
-import PokeDex from './Components/Pokedex/Pokedex';
+import PokeGame from "./Components/PokeGame/PokeGame";
 
 
 function App() {
   return (
     <div className="App">
-      <PokeDex />
+      <PokeGame />
+     
     </div>
   );
 }
