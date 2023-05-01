@@ -30,3 +30,11 @@ p{
 h1{
   text-align: center;
 }
+
+.Pokedex-winner{
+  color: #4caf50;
+}
+
+.Pokedex-loser{
+  color: #e91e63;
+}
